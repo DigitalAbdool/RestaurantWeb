@@ -1,0 +1,380 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*=================
+	Header
+	===============*/
+
+.Header_section{
+	border:2px solid white;
+	background-color: #fbfbfb;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+}
+.Nav_bar{
+	
+	float: right;
+}
+
+header{
+	display: inline;
+}
+
+li{
+	display: inline;
+	
+}
+li a{
+
+	text-decoration: none;
+	padding-right: 15px;
+	color: slategray;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+
+li a:hover{
+	color: seagreen;
+}
+
+/*==================
+	Hero_section
+	===============*/
+
+.Hero_section{
+	height: 50vh;
+	background-image: url(Images/food2.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+.Hero_section_content h1{
+	padding: 15px;
+	font-family: 'Economina', sans-serif;
+	font-size: 50px;
+}
+
+.Hero_section_content p{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.Hero_section_content button{
+	text-transform: uppercase;
+	padding: 15px 70px 15px 70px;
+	border-radius: 40px;
+	border-width: 0;
+	color: white;
+	background-color: seagreen;
+
+}
+
+/*=====================
+	About_section
+	===================*/
+#About{
+	padding: 50px 0;
+	background-color: #f5f5f7;
+}
+
+.About_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	justify-content: space-around;
+	margin: 30px;
+}
+
+.About_wrapper:hover{
+	opacity: 0.7;
+}
+
+.About_content{
+	flex: 1 1 400px;
+	padding: 10px;
+	margin: auto;
+	text-align: justify;
+	
+
+}
+.About_img{
+	flex: 1 1 400px;
+	padding: 10px;
+
+	
+}
+
+.About_content h4{
+	color: gray;
+	font-size: 1.6rem;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+
+}
+
+.About_content h1{
+	font-size: 2.3rem;
+}
+
+.About_content p{
+	font-size: 1.3rem;
+	color: #555;
+}
+
+
+/*=================
+	General_section
+	===============*/
+.General_section{
+	padding: 50px 0;
+	border: 1px solid white;
+}
+
+.General_section h2{
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 2.5rem;
+	font-style: italic;
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.General_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.General_content{
+	flex: 1 1 400px;
+	width: 100%;
+	padding: 20px;
+	margin: auto;
+}
+.General_content:first-child{
+	margin-left: 3%;
+}
+
+.General_content p{
+	text-align: center;
+	font-family: 'Economina', 'Monsterrat', sans-serif;
+	font-size: 1.5rem;
+	color: gray;
+
+
+}
+
+.General_content a {
+	text-decoration: none;
+	color: seagreen;
+	font-family: sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+
+/*===================
+	Food_menu
+	================*/
+#Food_menu{
+
+	margin: 45px;
+}
+
+#Food_menu h2{
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 2.5rem;
+	font-style: italic;
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.Menu_wrapper{
+	overflow: auto;
+}
+
+.Menu_content img{
+	display: block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	padding: 15px;
+	object-fit: cover;
+	object-position: center;
+
+	
+}
+
+.Menu_content{
+	display: flex;
+	flex: 1;
+
+}
+
+.Menu_text{
+	margin: auto 1.5rem;
+
+}
+
+.Menu_text h3{
+	font-family: 'Economina', sans-serif;
+	font-size: 1.6rem;
+	padding-bottom: 10px;
+}
+
+.Menu_text p{
+	color: gray;
+	font-size: 1.3rem;
+	padding-bottom: 10px;
+}
+
+.Menu_text em{
+	color: seagreen;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+
+/*===============
+	Testimonials
+	============*/
+
+#Testimonials{
+	margin: 30px;
+}
+
+#Testimonials h2{
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 2.5rem;
+	font-style: italic;
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.Testimonials_wrapper{
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+
+}
+
+.Testimonials_img img{
+	flex: 1;
+	height: 250px;
+	border-radius: 50%;
+
+}
+
+.Testimonials_text{
+	flex: 1;
+	margin: auto 2rem;
+}
+
+.Testimonials_text h3{
+	font-family: 'Economina', sans-serif;
+	font-size: 
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.Testimonials_text p{
+	text-align: center;
+}
+
+
+/*======================
+	Contact_section
+	===================*/
+
+#Contact_section{
+	margin: 1.5rem;
+
+	
+}
+
+#Contact_section h2{
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 2.5rem;
+	font-style: italic;
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+
+.Contact_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 100px;
+	background-color: #F6F6F6
+}
+
+.Contact_content{
+	padding: 20px;
+}
+
+input[type="text"],
+input[type='email'],
+textarea
+{
+	width: 100%;
+	padding: 20px 150px;
+	border-radius: 50px;
+	border-color: seagreen;
+}
+
+.btn{
+	text-transform: uppercase;
+	padding: 15px 70px 15px 70px;
+	border-radius: 40px;
+	border-width: 0;
+	color: white;
+	background-color: seagreen;
+}
+
+
+footer{
+	text-align: center;
+	color: #f5f5f7;
+	background-color: seagreen;
+	font-family: 
+	font-size: 30px;
+	padding: 25px;
+	margin-top: 2rem;
+}
+
+
+
+/*==============
+ Media_Queries
+ ==============*/
+
+ @media screen and (min-width: 500px){
+ 	.Hero_section{
+ 		height: 40vh;
+ 	}
+
+ 	.About_img{
+ 		width: 90%;
+ 	}
+ }
